@@ -6,7 +6,6 @@ public class Main {
         System.out.println("Введите выражение из двух целых чисел от 1 до 10: ");
         Scanner sc = new Scanner(System.in);
         String expression = sc.nextLine();
-        System.out.println("Результат: ");
         String result = calc(expression);
         System.out.println(result);
     }
