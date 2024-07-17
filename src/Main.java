@@ -33,6 +33,11 @@ public class Main {
        } catch (Exception e) {
            throw new IOException("Введено неверное выражение");
        } }
+            if (!isRoman) {
+                if ((x<1) || (x>10) || (y<1) || (y>10)) {
+                    throw new IOException("Введено неверное выражение");
+                }
+            }
 
 int result1 = 0;
 
